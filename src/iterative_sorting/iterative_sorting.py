@@ -1,21 +1,11 @@
 # TO-DO: Complete the selection_sort() function below 
 def selection_sort( arr ):
-    # loop through n-1 elements
-    for i in range(0, len(arr) - 1):
-        cur_index = i
-        smallest_index = cur_index
-        # TO-DO: find next smallest element
-        # (hint, can do in 3 loc) 
-             
+    for i in range(len(arr)):#create starting point 
+        lowest_num = arr[i]#create my lowest number variable and assign it to my starting point
+    
 
 
-
-        # TO-DO: swap
-
-
-
-
-    return arr
+    
 
 
 # TO-DO:  implement the Bubble Sort function below
