@@ -1,8 +1,21 @@
 # TO-DO: complete the helpe function below to merge 2 sorted arrays
-def merge( arrA, arrB ):
-    elements = len( arrA ) + len( arrB )
+def merge( arrLeft, arrRight ):
+    elements = len( arrLeft ) + len( arrRight )
     merged_arr = [0] * elements
     # TO-DO
+    l = 0                           # create our  left cursor
+    r = 0                           # create our right cursor
+
+    for i in range(0, elements):
+        if l >= len(arrLeft):       #if the left side is done
+            merged_arr[i] = arrRight[r]   #merge with right side
+            r += 1
+        elif r >= len(arrRight):
+            merged_arr[i] = arrLeft[l]
+        elif 
+    # if the right side is done 
+    # if the left side is smaller 
+    # if the right side is smaller 
     
     return merged_arr
 
