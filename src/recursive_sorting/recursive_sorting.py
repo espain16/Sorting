@@ -18,6 +18,7 @@ def merge( arrLeft, arrRight ):
             l += 1
         else:
             merged_arr[i] = arrRight[r]             # if the right side is smaller 
+            r += 1
    
     
    
